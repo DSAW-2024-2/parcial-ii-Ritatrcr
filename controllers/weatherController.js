@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+
 exports.getWeather = async (req, res) => {
     const { latitude, longitude } = req.query;
 

@@ -1,21 +1,23 @@
 {
-  "name": "weather-api",
-  "version": "1.0.0",
-  "description": "API REST para consultar el clima con autenticación",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "axios": "^1.7.7",
-    "bcryptjs": "^2.4.3",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "jsonwebtoken": "^9.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "author": "",
-  "license": "ISC"
-}
+    "name": "parcial-ii-ritatrcr",
+    "version": "1.0.0",
+    "description": "API REST para consultar el clima utilizando Open Meteo",
+    "main": "index.js", 
+    "scripts": {
+      "start": "node index.js", 
+      "dev": "nodemon index.js" 
+    },
+    "dependencies": {
+      "axios": "^0.24.0", 
+      "express": "^4.17.1", 
+      "jsonwebtoken": "^8.5.1", 
+      "dotenv": "^10.0.0" 
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    },
+    "engines": {
+      "node": ">=14.x" 
+    }
+  }
+  
