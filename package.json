@@ -1,11 +1,9 @@
 {
     "name": "parcial-ii-ritatrcr",
     "version": "1.0.0",
-    "description": "API REST para consultar el clima utilizando Open Meteo",
     "main": "index.js", 
     "scripts": {
-      "start": "node index.js", 
-      "dev": "nodemon index.js" 
+      "start": "node index.js"
     },
     "dependencies": {
       "axios": "^0.24.0", 
