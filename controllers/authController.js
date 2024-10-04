@@ -16,5 +16,5 @@ exports.login = (req, res) => {
     }
 
     // If info is not correct
-    return res.status(401).json({ error: 'Credenciales incorrectas' });
+    return res.status(401).json({ error: 'Info not correct' });
 };
